@@ -1,6 +1,6 @@
 {
-  "versionCode": 40,
-  "versionName": "0.4.0",
-  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.0/Ava-0.4.0-release.apk",
-  "changelog": "0.4.0 fixes Ava Bluetooth error definition, thanks @N3rd7 #54. Mod Store now loads dynamic .so libraries, tighter OpenClaw integration.\n\nOpenClaw(Mini) officially expands: **Home Assistant skill control**—thanks @ha-china, @Desmond-Dong. **Full web AI service**—access via device IP:18789. **Image skills** added. **Terminal skills**—thanks Termux project. **Android system-level integration**. **Skill install/uninstall/load** lifecycle. **Ava browser and web search**. **API request** capabilities.\n\nNative UI issues fixed.\n\n0.4.0 release will pause for an extended period. Future updates will ship through the Mod Store.\n\nWishing everyone health, peace, and prosperity in 2026."
+  "versionCode": 41,
+  "versionName": "0.4.1",
+  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.1/Ava-0.4.1-release.apk",
+  "changelog": "0.4.1 Browser Tool fully decoupled—standalone module with smarter DOM extraction, reduced system coupling, enhanced stability. Bluetooth Protocol Stack Extension in Mod Store: low-level Hook framework, chip identification, scanner quirks, GATT fixes for MTK/Qualcomm. Security vulnerabilities patched. Mod Store UI polished. Hand-drawn Digital Clock screensaver—pure canvas rendering, zero WebView, floating window mode, HA sync, double-tap toggle. Path: Extensions → Info & Scenes → Minimalist Clock. Bluetooth watchdog fixed, log cache cleaned #57. Auto-cleanup for duplicate BT devices. Settings button restored. Automation issues addressed."
 }
