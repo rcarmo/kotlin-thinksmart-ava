@@ -1,6 +1,6 @@
 {
-  "versionCode": 41,
-  "versionName": "0.4.1",
-  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.1/Ava-0.4.1-release.apk",
-  "changelog": "0.4.1 Browser Tool fully decoupled—standalone module with smarter DOM extraction, reduced system coupling, enhanced stability. Bluetooth Protocol Stack Extension in Mod Store: low-level Hook framework, chip identification, scanner quirks, GATT fixes for MTK/Qualcomm. Security vulnerabilities patched. Mod Store UI polished. Hand-drawn Digital Clock screensaver—pure canvas rendering, zero WebView, floating window mode, HA sync, double-tap toggle. Path: Extensions → Info & Scenes → Minimalist Clock. Bluetooth watchdog fixed, log cache cleaned #57. Auto-cleanup for duplicate BT devices. Settings button restored. Automation issues addressed."
+  "versionCode": 42,
+  "versionName": "0.4.2",
+  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.2/Ava-0.4.2-release.apk",
+  "changelog": "minimalist clock interface—significantly improved visual design. Note: weather entity ID must be configured in weather settings for conditions to display. Mod Store UI styling fixed. Extension system re-architected for more diverse future features. Thanks @Jarod73 for comprehensive ava-mods documentation, e.g., mimiclaw-ai-assistant. Thanks @pantherale0 for tutorial contribution—merged per #56, see qualcomm-audio-concurrency-fix for guides. Minor Bluetooth issues patched, legacy bugs resolved, font package size optimized."
 }
