@@ -1,6 +1,6 @@
 # Ava Pro · Home Assistant's Android Companion
 
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-AI_Docs-0D1117?style=for-the-badge&labelColor=21262d&logoColor=white)](https://deepwiki.com/knoop7/Ava)
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-AI_Docs-003366?style=for-the-badge&labelColor=002244&logoColor=white)](https://deepwiki.com/knoop7/Ava)
 ![GitHub Downloads](https://img.shields.io/github/downloads/knoop7/ava/total?style=for-the-badge&logo=github&color=0D1117&labelColor=21262d&logoColor=white&label=DOWNLOADS)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/knoop7)
 
