@@ -4,10 +4,10 @@
 [![Discord](https://img.shields.io/badge/Discord-Join-0D1117?style=for-the-badge&labelColor=21262d&logo=discord&logoColor=white)](https://discord.gg/Znd68HA8)
 ![GitHub Downloads](https://img.shields.io/github/downloads/knoop7/ava/total?style=for-the-badge&logo=github&color=0D1117&labelColor=21262d&logoColor=white&label=DOWNLOADS)
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/knoop7)
+
 
 For more practical guides, visit the [Wiki](https://deepwiki.com/knoop7/Ava).
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/knoop7)
 
 
 Share a project I've been working on: **Ava**, an Android voice assistant app that turns old tablets, phones, **car head units, smart mirrors, and Android-powered appliances** into powerful smart home control panels. **Compatible with the full range of Android ecosystems.**
