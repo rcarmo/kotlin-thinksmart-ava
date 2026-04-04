@@ -2,5 +2,5 @@
   "versionCode": 44,
   "versionName": "0.4.4",
   "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.4/Ava-0.4.4-release.apk",
-  "changelog": "0.4.4 Bidirectional Volume Sync—new toggle for HA ↔ Sendspin linkage. Real-time sync or complete decoupling. Thanks @danwig. Audio queue integrity fixed—tracks now complete before transitioning. Legacy camera compatibility patched for LineageOS 17.1, Galaxy S2 8.0 LTE (#61). Thanks @yaro24. Header styling corrected. Wake word ducking restored—media attenuates on wake detection (#59). Thanks @nils-mosbach."
+  "changelog": "Bidirectional Volume Sync—new toggle for HA ↔ Sendspin linkage. Real-time sync or complete decoupling. Thanks @danwig. Audio queue integrity fixed—tracks now complete before transitioning. Legacy camera compatibility patched for LineageOS 17.1, Galaxy S2 8.0 LTE (#61). Thanks @yaro24. Header styling corrected. Wake word ducking restored—media attenuates on wake detection (#59). Thanks @nils-mosbach."
 }
