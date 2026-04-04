@@ -1,6 +1,6 @@
 {
-  "versionCode": 43,
-  "versionName": "0.4.3",
-  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.3/Ava-0.4.3-release.apk",
-  "changelog": "0.4.3 Settings streamlined—redundant navigation cut, paths now intuitive. Extension layouts standardized, field descriptions clarified. Sendspin optimized: swipe-up cards, coordinate precision fixed, handshake stability improved. Mod Store hardened: crash fixes, race conditions eliminated. Allwinner A64 support moved to Mod Store. Service restart broadcast fixed, boot audio anomalies suppressed. Protocol serialization corrected, memory leaks patched."
+  "versionCode": 44,
+  "versionName": "0.4.4",
+  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.4/Ava-0.4.4-release.apk",
+  "changelog": "0.4.4 Bidirectional Volume Sync—new toggle for HA ↔ Sendspin linkage. Real-time sync or complete decoupling. Thanks @danwig. Audio queue integrity fixed—tracks now complete before transitioning. Legacy camera compatibility patched for LineageOS 17.1, Galaxy S2 8.0 LTE (#61). Thanks @yaro24. Header styling corrected. Wake word ducking restored—media attenuates on wake detection (#59). Thanks @nils-mosbach."
 }
