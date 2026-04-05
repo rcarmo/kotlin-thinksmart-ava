@@ -1,6 +1,6 @@
 {
-  "versionCode": 44,
-  "versionName": "0.4.4",
-  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.4/Ava-0.4.4-release.apk",
-  "changelog": "Bidirectional Volume Sync—new toggle for HA ↔ Sendspin linkage. Real-time sync or complete decoupling. Thanks @danwig. Geek Mode added—live audio details surface codec, sample rate, bit depth, sync status in real time. Audio queue integrity fixed—tracks complete before transitioning. Legacy camera compatibility patched for LineageOS 17.1, Galaxy S2 8.0 LTE (#61). Thanks @yaro24. Header styling corrected. Wake word ducking restored—media attenuates on wake detection (#59). Thanks @nils-mosbach."
+  "versionCode": 45,
+  "versionName": "0.4.5",
+  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.5/Ava-0.4.5-release.apk",
+  "changelog": "0.4.5 Sendspin playback chain lifecycle unified across clear/end/pause/reconnect scenarios—prevents destabilized AudioTrack reuse #63. Legacy chains fully decommissioned, fixing half-beat sync drift. clearBuffer() hardened: clean rebuilds over flushes. WAITING_FOR_START buffer accumulation fixed with forced-playback protection. Extreme timestamp jumps handled via timeline reconstruction. Buffer saturation, packet drops, GC jitter from anomalous gaps eliminated. Opus decoder limits added to prevent memory exhaustion. pendingChunks handoff tightened, total PCM ceiling reinstated. Buffer capacity expanded for jitter resilience. Log spam during speed adjustments silenced; state lifecycle reset across paths. AudioTrack.getTimestamp() cached and rate-limited. Underrun detection refined—false positives removed. Aggressive post-underrun recovery added. Song container visibility fixed."
 }
