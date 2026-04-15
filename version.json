@@ -1,6 +1,6 @@
 {
-  "versionCode": 46,
-  "versionName": "0.4.6",
-  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.6/Ava-0.4.6-release.apk",
-  "changelog": "0.4.6 Tuya S6E/S8E support—Mod Store firmware enables Zigbee, rotary knob, quad-mic. UI copy rewritten for clarity, i18n improved. Visual hierarchy optimized—monospace values, better recognition. Browser stabilized—WebView leaks fixed, white-screen resolved. Sendspin overhauled—true ms-grade multi-room sync, -200ms offset deprecated. Legacy mode for <2GB RAM—dynamic bitrate, auto frame reduction. Sensor polling controls—granular intervals extend battery. Proximity streaming added with debounce. Mod Store downloads refactored—checksum verification, rollback on failure. Audio buffer overflow fixed #64 @pvossel—FIFO rewrite, Silence Detection, 40% memory reduction. Assist Satellite Q&A support. Audio Stream Control API exposed—programmatic mic seize/release."
+  "versionCode": 47,
+  "versionName": "0.4.7",
+  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.7/Ava-0.4.7-release.apk",
+  "changelog": "Voice settings reorganized—clearer path, easier navigation. New system recording modes with descriptive labels. Auto-Select enabled by default—optimal path chosen automatically #64. Advanced microphone processing toggle—noise reduction, AGC, echo cancellation controls. Software mic gain added—boost input without changing system volume. Screen control entity display toggle—hide/show Screen On/Off and Lock Screen in HA, under Device Services. Recording source override fixed for specific devices—platform-specific branches preserved. Screensaver dark-based screen-off now uses independent lux monitoring. Delayed dark detection fixed for on-change sensors. Settings font sizes unified. Main settings layout fixed on large screens—independent scaling, dynamic magnification. Extension card layout fixed on small screens—bottom padding added."
 }
