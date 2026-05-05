@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -5,6 +7,13 @@ plugins {
     
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.google.protobuf)
+}
+
+val releaseSigningFile = rootProject.file("signing.properties")
+val releaseSigning = Properties().apply {
+    if (releaseSigningFile.exists()) {
+        releaseSigningFile.inputStream().use(::load)
+    }
 }
 
 android {
@@ -21,9 +30,9 @@ android {
             abiFilters.add("armeabi-v7a")
         }
         versionCode = if (project.ext.has("versionCode"))
-            project.ext.get("versionCode").toString().toInt() else 31
+            project.ext.get("versionCode").toString().toInt() else 48
         versionName = if (project.ext.has("versionName"))
-            project.ext.get("versionName").toString() else "0.3.1"
+            project.ext.get("versionName").toString() else "0.5.0"
         base.archivesName = "Ava-$versionName"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -31,10 +40,15 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file(System.getProperty("user.home") + "/ava-key.jks")
-            storePassword = "123456"
-            keyAlias = "ava"
-            keyPassword = "123456"
+            if (releaseSigningFile.exists()) {
+                storeFile = file(releaseSigning.getProperty("storeFile"))
+                storePassword = releaseSigning.getProperty("storePassword")
+                keyAlias = releaseSigning.getProperty("keyAlias")
+                keyPassword = releaseSigning.getProperty("keyPassword")
+                releaseSigning.getProperty("storeType")
+                    ?.takeIf { it.isNotBlank() }
+                    ?.let { storeType = it }
+            }
         }
     }
 
@@ -49,7 +63,11 @@ android {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
-            signingConfig = signingConfigs.getByName("release")
+            signingConfig = if (releaseSigningFile.exists()) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

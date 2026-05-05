@@ -1,6 +1,6 @@
 {
-  "versionCode": 47,
-  "versionName": "0.4.7",
-  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.4.7/Ava-0.4.7-release.apk",
-  "changelog": "Voice settings reorganized—clearer path, easier navigation. New system recording modes with descriptive labels. Auto-Select enabled by default—optimal path chosen automatically #64. Advanced microphone processing toggle—noise reduction, AGC, echo cancellation controls. Software mic gain added—boost input without changing system volume. Screen control entity display toggle—hide/show Screen On/Off and Lock Screen in HA, under Device Services. Recording source override fixed for specific devices—platform-specific branches preserved. Screensaver dark-based screen-off now uses independent lux monitoring. Delayed dark detection fixed for on-change sensors. Settings font sizes unified. Main settings layout fixed on large screens—independent scaling, dynamic magnification. Extension card layout fixed on small screens—bottom padding added."
+  "versionCode": 48,
+  "versionName": "0.5.0",
+  "downloadUrl": "https://github.com/knoop7/Ava/releases/download/0.5.0/Ava-release.apk",
+  "changelog": "CI pipeline added for automated Android builds, release APK artifacts, optional release signing from secrets, and tag-based GitHub Releases. Release signing now uses signing.properties with debug signing fallback when no release keystore is configured."
 }

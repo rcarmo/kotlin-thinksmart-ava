@@ -345,7 +345,7 @@ Having problems? Get help here: **GitHub Issues**: https://github.com/knoop7/Ava
 ### Prerequisites
 - **JDK 17** or higher
 - **Android Studio** Hedgehog (2023.1.1) or higher
-- **Android SDK** with API level 34
+- **Android SDK** with API level 36
 - **NDK** (for native audio processing)
 
 ### macOS
@@ -356,7 +356,7 @@ cd Ava
 ./gradlew assembleDebug    # Debug APK
 ./gradlew assembleRelease  # Release APK
 ```
-APK location: `app/build/outputs/apk/debug/app-debug.apk` or `app/build/outputs/apk/release/app-release-unsigned.apk`
+APK location: `app/build/outputs/apk/debug/app-debug.apk` or `app/build/outputs/apk/release/*.apk`
 
 ### Windows
 ```powershell
@@ -366,7 +366,7 @@ cd Ava
 .\gradlew.bat assembleDebug    # Debug APK
 .\gradlew.bat assembleRelease  # Release APK
 ```
-APK location: `app\build\outputs\apk\debug\app-debug.apk` or `app\build\outputs\apk\release\app-release-unsigned.apk`
+APK location: `app\build\outputs\apk\debug\app-debug.apk` or `app\build\outputs\apk\release\*.apk`
 
 ### Linux
 ```bash
@@ -383,12 +383,13 @@ cd Ava
 
 ### Signing Release APK
 1. Create keystore: `keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias`
-2. Create `keystore.properties` in project root:
+2. Create `signing.properties` in project root:
 ```properties
 storePassword=your_store_password
 keyPassword=your_key_password
 keyAlias=my-alias
 storeFile=../my-release-key.jks
+storeType=jks
 ```
 3. Build: `./gradlew assembleRelease`
 
